@@ -1,0 +1,20 @@
+html {
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Inter', sans-serif;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+
+body {
+  text-align: center;
+	background-color: black
+}
+
+audio{
+	display: none;
+}
+
+#myCanvas {
+  border: 7px solid gray;
+	border-radius: 25px
+}
