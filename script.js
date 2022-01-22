@@ -1069,7 +1069,8 @@ function moveSound() {
 	}
 }
 
-requestAnimationFrame(draw);
+
+
 
 function draw() {
 	if (epilepsyWarningActive == false) {
@@ -3910,5 +3911,10 @@ function draw() {
 	}
 
 	frame++
-	requestAnimationFrame(draw);
+}
+window.onload = function() {
+    function Update() {
+        draw()
+    }
+    setInterval(Update, 16.5);
 }
